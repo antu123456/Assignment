@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: aqua;
+            color: black;
+        }
+        .sec1{
+            font-size: large;
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+        }
+        .head{
+            height: 60px;
+            padding: 30px;
+            margin-bottom:10px;
+        }
+        .head h1{
+            font-size: 30px;
+            border-style: double;
+            padding: 20px 0px;
+            word-spacing: 10px;
+        }
+        .name1{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .name1 label{
+           padding-left: 100px;
+           float: left;
+           margin-right: 58px;
+           
+        }
+        .name1 input{
+            position: relative;
+            left: -300px;
+            width: 30%;
+        }
+        .name2{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .name2 label{
+           padding-left: 100px;
+           float: left;
+           
+        }
+        .name2 input{
+            position: relative;
+            left: -300px;
+            width: 30%;
+        }
+        .name3{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .name3 label{
+           padding-left: 100px;
+           float: left;
+           margin-right: -5px;
+           
+        }
+        .name3 input{
+            position: relative;
+            left: -300px;
+            width: 30%;
+        }
+        .name4{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .name4 label{
+           padding-left: 100px;
+           float: left;
+           
+        }
+        .name4 input{
+            position: relative;
+            left: -300px;
+            width: 30%;
+        }
+        .name11{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .name11 label{
+           padding-left: 100px;
+           float: left;
+           margin-right: 58px;
+           
+        }
+        .name11 input{
+            position: relative;
+            left: -300px;
+            width: 30%;
+        }
+        .name5{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .name5 #label4{
+            float: left;
+           margin-left: 100px;
+           
+        }
+        .name5 input{
+            width: 35px;  
+        }
+        .name5 #gen1,#gen2,#gen3,#gen4,#gen5,#gen6{
+            position: relative;
+            left: -350px;
+        }
+        .dob{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .dob #dob{
+            float: left;
+           margin-left: 100px;
+           
+        }
+        .dob input{
+            width: 35px;  
+        }
+        .dob #dob1,#dob2,#dob3,#dob4,#dob5,#dob6{
+            position: relative;
+            left: -370px;
+        }
+        .name6{
+            font-size: 18px;
+            padding: 10px;
+            padding-left: 105px;
+        }
+        .name6 label{
+           float: left;
+           margin-right: 58px;
+           
+        }
+        .name6 input{
+            position: relative;
+            left: -300px;
+            padding-right:100px ;
+            width: 25%;
+            
+        }
+        .name7{
+            font-size: 18px;
+            padding: 10px;
+            padding-left: 105px;
+        }
+        .name7 label{
+           float: left;
+           margin-right: 58px;
+           
+        }
+        .name7 #bg{
+            position: relative;
+            left: -445px;
+            padding-right:100px ;
+            
+        }
+        .name8{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .name8 #label2{
+            float: left;
+           margin-left: 100px;
+           
+        }
+        .name8 input{
+            width: 35px;  
+        }
+        .name8 #dept1,#dept2,#dept3,#dept4,#dept5{
+            position: relative;
+            left: -370px;
+        }
+        .name9{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .name9 #label3{
+            float: left;
+           margin-left: 100px;
+           
+        }
+        .name9 input{
+            width: 35px;  
+        }
+        .name9 #crs1,#crs2,#crs3,#crs4,#crs5,#crs6,#crs7,#crs8,#crs9,#crs10{
+            position: relative;
+            left: -250px;
+            padding: -10px;
+        }
+        .name10{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .name10 label{
+           padding-left: 100px;
+           float: left;
+           
+        }
+        .name10 input{
+            position: relative;
+            left: -345px;
+        }
+        .button{
+            font-size: 18px;
+            padding: 10px;
+        }
+        .button input{
+            position: relative;
+            left: -500px;
+            padding: 5px;
+        }
+        
+        
+       
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="sec1">
+        <div class="head">
+            <h1>Student Registration Form</h1>
+        </div>
+        <div class="name1">
+            <label for="name" ">Name :</label>
+            <input type="text" id="name" class="fname" placeholder="Enter Full Name">
+        </div>
+        <div class="name2">
+            <label for="father">Father's Name :</label>
+            <input type="text" id="name" >
+        </div>
+        <div class="name3">
+            <label for="name">Mother's Name :</label>
+            <input type="text" id="name" >
+        </div>
+        <div class="name4">
+            <label for="phone">Phone Number :</label>
+            <input type="text" id="name" placeholder="017xxxxxxx">
+        </div>
+        <div class="name11">
+            <label for="email">Email :</label>
+            <input type="text" id="name" placeholder="sample@gmail.com">
+        </div>
+        <div class="name5">
+            <label for="gender" id="label4">Gender :</label>
+            <input type="radio" name="gender" id="gen1">
+            <label for="" id="gen2">Male</label>
+            <input type="radio" name="gender" id="gen3">
+            <label for="" id="gen4">Female</label>
+            <input type="radio" name="gender" id="gen5">
+            <label for="" id="gen6">Other</label>
+        </div>
+        <div class="dob">
+            <label for="dob" id="dob">Date Of Birth :</label>
+            <input type="text" id="dob1"><label id="dob4">-</label>
+            <input type="text" id="dob2"><label id="dob5">-</label>
+            <input type="text" id="dob3">
+            <label for="" id="dob6">(dd-mm-yyyy)</label>
+        </div>
+        <div class="name6">
+            <label for="address">Address :</label>
+            <input type="text" id="name" placeholder="Street - House - Road">
+        </div>
+        <div class="name7">
+            <label for="bg">Blood Group :</label>
+           <select name="bg" id="bg">
+            <option value="">select</option>
+            <option value="">A</option>
+            <option value="">B</option>
+            <option value="">A+</option>
+            <option value="">B+</option>
+            <option value="">O</option>
+            <option value="">O+</option>
+           </select>
+        </div>
+        <div class="name8">
+            <label for="dept" id="label2">Department :</label>
+            <input type="radio" name="gender" id="dept1">
+            <label for="" id="dept2">CSE</label>
+            <input type="radio" name="gender" id="dept3">
+            <label for="" id="dept3">EEE</label>
+            <input type="radio" name="gender" id="dept4">
+            <label for="" id="dept5">BBA</label>
+            
+        </div>
+        <div class="name9">
+            <label for="course" id="label3">Course :</label>
+            <input type="checkbox"  id="crs1">
+            <label for="" id="crs2">C</label>
+            <input type="checkbox" id="crs3">
+            <label for="" id="crs4">C++</label>
+            <input type="checkbox" id="crs5">
+            <label for="" id="crs6">Java</label>
+            <input type="checkbox" id="crs7">
+            <label for="" id="crs8">AI</label>
+            <input type="checkbox" id="crs9">
+            <label for="" id="crs10">Machine Learning</label>
+        </div>
+        <div class="name10">
+            <label for="photo">Photo :</label>
+            <input type="file" id="myFile" name="filename">
+        </div>
+         <div class="button">
+            <input type="submit" value="Submit">
+            <input type="button" value="Reset">
+         </div>
+
+        
+        
+
+
+
+
+
+    </div>
+</body>
+</html>
